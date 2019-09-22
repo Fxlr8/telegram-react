@@ -31,7 +31,7 @@ class DialogsList extends React.Component {
             chats: [],
             authorizationState: ApplicationStore.getAuthorizationState(),
             connectionState: ApplicationStore.getConnectionState(),
-            fistSliceLoaded: false
+            firstSliceLoaded: false
         };
     }
 
